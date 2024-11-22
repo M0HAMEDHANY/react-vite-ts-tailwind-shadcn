@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
   	extend: {
+      fontFamily:{
+        lalezar: ["Lalezar", "cursive"],
+        inter: ["Inter", "sans-serif"],
+      },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
